@@ -1,17 +1,16 @@
 # basic_sound_model
 # Basic Sound Processing
 
-This repository contain some useful code for read, write, process and model sound. a GUI project in python and tkinter that can be used for the front-end part in many python desktop application. This project is entirely has been built with the famous python tkinter project and it contains the usage of many  tkinter elements. This Gui is also responsive to the size of screen in the good manner. the whole of the project has been developed with the Object Oriented programming (OOP) principle.
-- Python  tkinter gui
-- Object Oriented programming 
-# Screenshot
+This repository contains some useful code for read, write, process and model sound. many usefull code can find in this directory from reading files, feature extraction ,modeling sound data and etc. speaker diarization, clustring sound, sound classification/regression, audio event dection and etc are the wide range of project that you can find in this repository.
+- Basic Sound Processing
 
-![Screenshot](Screenshot_2.png)
 ## Installation
-- it doesn't need any kind of installation.
-
+-install packages in file requiremwnts.txt with the command pip install -r requiremwnts.txt
 ## Usage
-- run file Main.py
+- for each task there are  python files  in the main directory.
 
+## Reference 
+
+- pyAudioAnalysis, github: [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis.git)
 ## Maintainer
 * Hossein Biniazian, github: [iamhosseinbiniazian](https://github.com/iamhosseinbiniazian)
