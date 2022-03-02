@@ -6,8 +6,8 @@ from PyAudio import audioTrainTest as aT
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.utils import shuffle
 import random
-'''dirnamesm=['/home/quadro2/PycharmProjects/PyTest/data/MusicSpeech/speech',
-           '/home/quadro2/PycharmProjects/PyTest/data/MusicSpeech/music'
+'''dirnamesm=['data/MusicSpeech/speech',
+           'data/MusicSpeech/music'
            ]
 [features, classNames, _] = aF.dirsWavFeatureExtraction(dirnamesm,1.0, 1.0, aT.shortTermWindow,aT.shortTermStep,\
                                                      computeBEAT=False)
