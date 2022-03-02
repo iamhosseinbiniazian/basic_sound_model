@@ -5,7 +5,7 @@ import scipy as sp
 from subprocess import call
 import shutil
 sox=True
-path='/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/'
+path='data/UrbanSound8K/'
 audiopath='audio'
 metadatapath='metadata'
 for d, ds, fs in os.walk(path+audiopath):
