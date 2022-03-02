@@ -5,7 +5,7 @@ from scipy.io import wavfile
 from sklearn import preprocessing
 import python_speech_features as psf
 import numpy as np
-rootdir='/home/apasai/PycharmProjects/PyTest/data/ESC-50/'
+rootdir='data/ESC-50/'
 Feature=[]
 Label=[]
 for d, ds, fs in os.walk(rootdir):
