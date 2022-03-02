@@ -1,7 +1,7 @@
 import shutil, random, os, sys
 # mkdir train && mkdir test
-folder = '/home/quadro2/PycharmProjects/PyTest/data/MusicSpeech/'
-whereto = '/home/quadro2/PycharmProjects/PyTest/data/MusicSpeechTrainTest/'
+folder = 'data/MusicSpeech/'
+whereto = 'data/MusicSpeechTrainTest/'
 for d, ds, fs in os.walk(folder):
     for fname in fs:
         if fname[-4:] != '.WAV':
