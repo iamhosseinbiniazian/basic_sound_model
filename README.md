@@ -12,5 +12,7 @@ This repository contains some useful code for read, write, process and model sou
 ## Reference 
 
 - pyAudioAnalysis, github: [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis.git)
+- wavio , github: [wavio](https://github.com/WarrenWeckesser/wavio.git)
+
 ## Maintainer
 * Hossein Biniazian, github: [iamhosseinbiniazian](https://github.com/iamhosseinbiniazian)
