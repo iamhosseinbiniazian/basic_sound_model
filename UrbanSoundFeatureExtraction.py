@@ -14,7 +14,7 @@ import librosa
 import python_speech_features as psf
 import scipy.io.wavfile as siw
 sox=True
-path='/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/'
+path='data/UrbanSound8K/'
 audiopath='audio'
 metadatapath='metadata'
 '''with open(path+metadatapath+'/'+'UrbanSound8K.csv', 'r') as csvfile:
@@ -32,16 +32,16 @@ metadatapath='metadata'
         [mtF, _] = aF.mtFeatureExtraction(x, Fs, round(Fs * 1), round(Fs * 1),
                                        round(Fs * aT.shortTermWindow), round(Fs *  aT.shortTermStep))
         np.save(pathsound[:-4]+'.npy',mtF)
-dirnamesm=['/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold1',
-           '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold2',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold3',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold4',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold5',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold6',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold7',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold8',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold9',
-            '/home/quadro2/PycharmProjects/PyTest/data/UrbanSound8K/audio/fold10']
+dirnamesm=['data/UrbanSound8K/audio/fold1',
+           'data/UrbanSound8K/audio/fold2',
+            'data/UrbanSound8K/audio/fold3',
+            'data/UrbanSound8K/audio/fold4',
+            'data/UrbanSound8K/audio/fold5',
+            'data/UrbanSound8K/audio/fold6',
+            'data/UrbanSound8K/audio/fold7',
+            'data/UrbanSound8K/audio/fold8',
+            'data/UrbanSound8K/audio/fold9',
+            'data/UrbanSound8K/audio/fold10']
 [features, classNames, _] = aF.dirsWavFeatureExtraction(dirnamesm,1.0, 1.0, aT.shortTermWindow,aT.shortTermStep,\
                                    computeBEAT=False)'''
 with open(path+metadatapath+'/'+'UrbanSound8K.csv', 'r') as csvfile:
