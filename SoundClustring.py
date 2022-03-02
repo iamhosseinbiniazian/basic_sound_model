@@ -5,8 +5,8 @@ import numpy as np
 fs,sig=AudioPreprate.ReadAudio("small.wav")
 Frames=AudioPreprate.FrameBlocking(sig,fs,0.03,0.01)
 print(Frames.shape)
-dir='/home/quadro2/PycharmProjects/PyTest/data/genresTrainTest/train/'
-Fdir='/home/quadro2/PycharmProjects/PyTest/data/FeaturegenresTrainTest/train/'
+dir='data/genresTrainTest/train/'
+Fdir='data/FeaturegenresTrainTest/train/'
 for d, ds, fs in os.walk(dir):
     for fname in fs:
         if fname[-4:] != '.WAV':
