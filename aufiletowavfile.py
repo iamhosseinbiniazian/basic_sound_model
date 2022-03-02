@@ -1,7 +1,7 @@
 import os,shutil
 from subprocess import call
 sox=True
-folder='/home/quadro2/PycharmProjects/PyTest/data/MusicSpeech'
+folder='data/MusicSpeech'
 for d, ds, fs in os.walk(folder):
         for fname in fs:
             fullfname = d + '/' + fname
