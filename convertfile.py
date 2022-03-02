@@ -2,7 +2,7 @@ import os
 import sys
 import shutil
 from subprocess import call
-rootdir='/home/apasai/PycharmProjects/PyTest/data/ESC-50/'
+rootdir='data/ESC-50/'
 for d, ds, fs in os.walk(rootdir):
     for fname in fs:
         if fname[-4:] != '.ogg':
